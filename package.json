@@ -15,7 +15,8 @@
     "lint": "eslint src/",
     "precommit": "lint-staged",
     "start": "react-scripts start",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "test:watch": "react-scripts test --watchAll"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,14 +29,14 @@
   ],
   "devDependencies": {
     "commitizen": "^3.0.4",
-    "eslint": "^5.9.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.11.1",
     "husky": "^1.1.4",
     "lint-staged": "^8.0.5",
-    "prettier": "^1.15.2"
+    "prettier": "^1.15.2",
+    "react-testing-library": "^5.2.3"
   },
   "config": {
     "commitizen": {
