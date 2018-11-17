@@ -4,7 +4,7 @@
   ],
   "rules": {
     "react/jsx-filename-extension": "off",
-    "no-undef": "warn",
+    "no-undef": "off",
     "import/no-useless-path-segments": "off",
     "react/jsx-indent": [2, 2],
     "react/jsx-one-expression-per-line": "off",
