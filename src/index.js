@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './App/';
+import App from './components/App';
 import * as serviceWorker from './serviceWorker';
+
+require('dotenv').config();
 
 ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 

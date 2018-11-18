@@ -8,6 +8,12 @@
     "import/no-useless-path-segments": "off",
     "react/jsx-indent": [2, 2],
     "react/jsx-one-expression-per-line": "off",
-    "no-tabs": "off"
-  }
+    "no-tabs": "off",
+    "import/prefer-default-export": "off",
+    "consistent-return": "off",
+    "arrow-parens": "off",
+    "no-return-assign": "off",
+    "implicit-arrow-linebreak": "off"
+  },
+  "parser": "babel-eslint"
 }
