@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`fetches data from unsplash 1`] = `
+Object {
+  "ressources": "Coiffure",
+}
+`;
