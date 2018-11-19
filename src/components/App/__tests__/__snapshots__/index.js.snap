@@ -3,17 +3,9 @@
 exports[`App should match snapshot 1`] = `
 <body>
   <div>
-    <div>
-      <header>
-        <p>
-          Edit 
-          <code>
-            src/App.js
-          </code>
-           and save to reload.
-        </p>
-      </header>
-    </div>
+    <div
+      class="sc-bxivhb kWpgLO"
+    />
   </div>
 </body>
 `;
