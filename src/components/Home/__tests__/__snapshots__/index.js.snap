@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Homepage should render Homepage with mocked data 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-bdVaJa kBIsmA"
+    >
+      <h1
+        class="sc-bxivhb gOekKA"
+      >
+        Coiffure
+      </h1>
+      <div
+        class="sc-bdVaJa kBIsmA"
+      >
+        <h2
+          class="sc-ifAKCX huOdvu"
+        >
+          Homme
+        </h2>
+        <div
+          class="sc-bwzfXH HyIMa"
+        >
+          <h4
+            class="sc-EHOje cKAoic"
+          >
+            Shampoing
+          </h4>
+          <p
+            class="sc-htpNat kMGVrk"
+          >
+            PRIX: 
+            <strong>
+              500
+            </strong>
+          </p>
+          <p
+            class="sc-htpNat kMGVrk"
+          >
+            DUREE: 
+            <strong>
+              10
+            </strong>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Homepage should return null when no Data 1`] = `
+<body>
+  <div />
+</body>
+`;

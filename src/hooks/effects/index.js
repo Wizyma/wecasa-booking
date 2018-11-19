@@ -2,7 +2,13 @@ import { useEffect } from 'react';
 
 import { getPrestations } from '../../api';
 
-export const useEffectPrestation = (manageContext, initialState) =>
+/**
+ *  Make the request durint the lifecycle phase.
+ *
+ * @param {Function} manageContext function to mutate the state
+ * @param {Object} initialState object that represent actual state
+ */
+const useEffectPrestation = (manageContext, initialState) =>
   useEffect(
     () => {
       let changedAfterOrUnmounted = false;
@@ -10,7 +16,9 @@ export const useEffectPrestation = (manageContext, initialState) =>
         if (!changedAfterOrUnmounted) {
           manageContext({
             ...initialState,
-            ressources,
+            ressources: {
+              ...ressources,
+            },
           });
         }
       });
@@ -18,3 +26,5 @@ export const useEffectPrestation = (manageContext, initialState) =>
     },
     [initialState],
   );
+
+export { useEffectPrestation };
