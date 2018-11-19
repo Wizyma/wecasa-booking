@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 
 import { Grid, GridColumn, Paragraph } from './styles';
+import { formatPrice } from '../../helpers';
 import Store from '../../context';
 import Title from '../Title';
 
@@ -20,7 +21,7 @@ const Home = () => {
             <GridColumn key={ref}>
               <Title variant="h4">{tit}</Title>
               <Paragraph>
-                PRIX: <strong>{price}</strong>
+                PRIX: <strong>{formatPrice(price)}</strong>
               </Paragraph>
               <Paragraph>
                 DUREE: <strong>{duration}</strong>
