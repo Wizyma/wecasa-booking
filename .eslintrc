@@ -13,7 +13,8 @@
     "consistent-return": "off",
     "arrow-parens": "off",
     "no-return-assign": "off",
-    "implicit-arrow-linebreak": "off"
+    "implicit-arrow-linebreak": "off",
+    "object-curly-newline": "off"
   },
   "parser": "babel-eslint"
 }
