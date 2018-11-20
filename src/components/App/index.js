@@ -3,6 +3,7 @@ import React, { useContext, Suspense } from 'react';
 import Home from '../Home';
 import Store from '../../context';
 import WecasaPage from '../Page';
+import Basket from '../Basket';
 import { useContextManager } from '../../hooks';
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Suspense fallback={<div>Loading ...</div>}>
         <WecasaPage>
           <Home />
+          <Basket />
         </WecasaPage>
       </Suspense>
     </Store.Provider>

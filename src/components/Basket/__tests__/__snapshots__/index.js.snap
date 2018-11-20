@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Basket should render Basket with mocked data 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-bdVaJa fKXRkp"
+    >
+      <div>
+        0
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Basket should return 0 when basket is empty 1`] = `
+<body>
+  <div>
+    <div
+      class="sc-bdVaJa fKXRkp"
+    >
+      <div>
+        0
+      </div>
+    </div>
+  </div>
+</body>
+`;

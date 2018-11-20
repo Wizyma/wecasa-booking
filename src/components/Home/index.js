@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, memo } from 'react';
 
 import { Grid, GridColumn, Paragraph } from './styles';
 import { formatPrice } from '../../helpers';
@@ -21,7 +21,7 @@ const Home = () => {
             <GridColumn key={ref}>
               <Title variant="h4">{tit}</Title>
               <Paragraph>
-                PRIX: <strong>{formatPrice(price)}</strong>
+                PRIX: <strong>{`${formatPrice(price)}€`}</strong>
               </Paragraph>
               <Paragraph>
                 DUREE: <strong>{duration}</strong>
@@ -33,7 +33,7 @@ const Home = () => {
                     type: 'ADD_TO_BASKEST',
                     payload: {
                       ref,
-                      price,
+                      price: formatPrice(price),
                       duration,
                     },
                   })
@@ -49,4 +49,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default memo(Home);
