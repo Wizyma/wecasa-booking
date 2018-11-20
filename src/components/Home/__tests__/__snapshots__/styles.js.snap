@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test styles should match snapshot 1`] = `
+Object {
+  "Grid": Object {
+    "$$typeof": Symbol(react.forward_ref),
+    "attrs": Array [],
+    "componentStyle": ComponentStyle {
+      "componentId": "sc-bdVaJa",
+      "isStatic": true,
+      "rules": Array [
+        "width: 100%; display: flex; flex-wrap: wrap; position: relative; justify-content: center; text-align: center;",
+      ],
+    },
+    "displayName": "styled.div",
+    "render": [Function],
+    "styledComponentId": "sc-bdVaJa",
+    "target": "div",
+    "toString": [Function],
+    "warnTooManyClasses": [Function],
+    "withComponent": [Function],
+  },
+  "GridColumn": Object {
+    "$$typeof": Symbol(react.forward_ref),
+    "attrs": Array [],
+    "componentStyle": ComponentStyle {
+      "componentId": "sc-bwzfXH",
+      "isStatic": true,
+      "rules": Array [
+        "width: 300px; display: flex; flex-wrap: wrap; box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); margin: 10px; padding: 10px; height: 150px;",
+      ],
+    },
+    "displayName": "styled.div",
+    "render": [Function],
+    "styledComponentId": "sc-bwzfXH",
+    "target": "div",
+    "toString": [Function],
+    "warnTooManyClasses": [Function],
+    "withComponent": [Function],
+  },
+  "Paragraph": Object {
+    "$$typeof": Symbol(react.forward_ref),
+    "attrs": Array [],
+    "componentStyle": ComponentStyle {
+      "componentId": "sc-htpNat",
+      "isStatic": true,
+      "rules": Array [
+        "margin: 2px; width: 100%;",
+      ],
+    },
+    "displayName": "styled.p",
+    "render": [Function],
+    "styledComponentId": "sc-htpNat",
+    "target": "p",
+    "toString": [Function],
+    "warnTooManyClasses": [Function],
+    "withComponent": [Function],
+  },
+}
+`;

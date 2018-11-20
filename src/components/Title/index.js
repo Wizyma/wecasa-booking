@@ -5,7 +5,8 @@ import { StyledTitle } from './styles';
 
 const Title = ({ children, variant }) => {
   const STitle = StyledTitle(variant);
-  return <STitle>{children}</STitle>;
+
+  return children && <STitle>{children}</STitle>;
 };
 
 Title.propTypes = {

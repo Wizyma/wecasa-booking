@@ -50,7 +50,7 @@ exports[`Homepage should render Homepage with mocked data 1`] = `
 </body>
 `;
 
-exports[`Homepage should return null when no Data 1`] = `
+exports[`Homepage should return an empty div when no Data 1`] = `
 <body>
   <div />
 </body>

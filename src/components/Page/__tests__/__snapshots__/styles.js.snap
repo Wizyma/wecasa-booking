@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test styles should match snapshot 1`] = `
+Object {
+  "Layout": Object {
+    "$$typeof": Symbol(react.forward_ref),
+    "attrs": Array [],
+    "componentStyle": ComponentStyle {
+      "componentId": "sc-bdVaJa",
+      "isStatic": true,
+      "rules": Array [
+        "padding: 0 20px; min-height: 100vh; width: auto; display: flex;",
+      ],
+    },
+    "displayName": "styled.div",
+    "render": [Function],
+    "styledComponentId": "sc-bdVaJa",
+    "target": "div",
+    "toString": [Function],
+    "warnTooManyClasses": [Function],
+    "withComponent": [Function],
+  },
+}
+`;
