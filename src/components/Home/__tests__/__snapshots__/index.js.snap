@@ -20,7 +20,7 @@ exports[`Homepage should render Homepage with mocked data 1`] = `
           Homme
         </h2>
         <div
-          class="sc-bwzfXH HyIMa"
+          class="sc-bwzfXH fSBevD"
         >
           <h4
             class="sc-EHOje cKAoic"
@@ -43,6 +43,11 @@ exports[`Homepage should render Homepage with mocked data 1`] = `
               10
             </strong>
           </p>
+          <button
+            type="button"
+          >
+            Ajouter prestations
+          </button>
         </div>
       </div>
     </div>

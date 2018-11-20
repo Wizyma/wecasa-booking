@@ -27,7 +27,7 @@ Object {
       "componentId": "sc-bwzfXH",
       "isStatic": true,
       "rules": Array [
-        "width: 300px; display: flex; flex-wrap: wrap; box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); margin: 10px; padding: 10px; height: 150px;",
+        "width: 300px; display: flex; flex-wrap: wrap; box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); margin: 10px; padding: 10px; height: 150px; justify-content: center; align-items: center;",
       ],
     },
     "displayName": "styled.div",
