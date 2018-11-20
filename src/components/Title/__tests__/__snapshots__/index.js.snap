@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title component Title should match snapshot 1`] = `
+<body>
+  <div>
+    <h1
+      class="sc-bdVaJa kbLwTv"
+    >
+      <p>
+        Hello World
+      </p>
+    </h1>
+  </div>
+</body>
+`;
+
+exports[`Title component should return an empty div when no children 1`] = `
+<body>
+  <div />
+</body>
+`;

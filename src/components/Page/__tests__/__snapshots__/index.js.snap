@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Page should match snapshot 1`] = `
+exports[`Page component Page should match snapshot 1`] = `
 <body>
   <div>
     <div
@@ -11,5 +11,11 @@ exports[`Page should match snapshot 1`] = `
       </h1>
     </div>
   </div>
+</body>
+`;
+
+exports[`Page component should return an empty div when no children 1`] = `
+<body>
+  <div />
 </body>
 `;

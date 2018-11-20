@@ -41,7 +41,7 @@ describe('Homepage', () => {
     expect(baseElement).toMatchSnapshot();
   });
 
-  it('should return null when no Data', () => {
+  it('should return an empty div when no Data', () => {
     const tree = (
       <Store.Provider value={[{}]}>
         <Home />
