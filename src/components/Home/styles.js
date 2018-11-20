@@ -17,6 +17,8 @@ export const GridColumn = styled.div({
   margin: '10px',
   padding: '10px',
   height: '150px',
+  justifyContent: 'center',
+  alignItems: 'center',
 });
 
 export const Paragraph = styled.p({

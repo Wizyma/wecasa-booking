@@ -6,7 +6,7 @@ import Store from '../../context';
 import Title from '../Title';
 
 const Home = () => {
-  const [store] = useContext(Store);
+  const [store, call] = useContext(Store);
   const { ressources } = store;
 
   if (!ressources) return null;
@@ -26,6 +26,21 @@ const Home = () => {
               <Paragraph>
                 DUREE: <strong>{duration}</strong>
               </Paragraph>
+              <button
+                type="button"
+                onClick={() =>
+                  call({
+                    type: 'ADD_TO_BASKEST',
+                    payload: {
+                      ref,
+                      price,
+                      duration,
+                    },
+                  })
+                }
+              >
+                Ajouter prestations
+              </button>
             </GridColumn>
           ))}
         </Grid>

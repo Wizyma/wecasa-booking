@@ -13,15 +13,15 @@ import { add, reset } from './basket';
 const useContextManager = initialState => {
   const [state, manageContext] = useState(initialState);
 
-  useEffectPrestation(manageContext, initialState);
+  useEffectPrestation(manageContext, state);
 
   const call = ({ type, payload }) => {
     const actions = {
-      ADD_TO_BASKEST: item => add(manageContext, initialState, item),
-      RESET_BASKET: () => reset(manageContext, initialState),
+      ADD_TO_BASKEST: (mutateFn, actualState) => add(mutateFn, actualState, payload),
+      RESET_BASKET: (mutateFn, actualState) => reset(mutateFn, actualState),
     };
 
-    return actions[type](payload);
+    return actions[type](manageContext, state);
   };
 
   return {
