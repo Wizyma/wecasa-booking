@@ -5,7 +5,15 @@ exports[`App should match snapshot 1`] = `
   <div>
     <div
       class="sc-bxivhb kWpgLO"
-    />
+    >
+      <div
+        class="sc-ifAKCX eDyzsI"
+      >
+        <div>
+          0
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 `;

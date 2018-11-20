@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test styles should match snapshot 1`] = `
+Object {
+  "FixedWrapper": Object {
+    "$$typeof": Symbol(react.forward_ref),
+    "attrs": Array [],
+    "componentStyle": ComponentStyle {
+      "componentId": "sc-bdVaJa",
+      "isStatic": false,
+      "rules": Array [
+        "
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #0069c0;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-transition: width 2s, height 2s, border-radius 2s; /* For Safari 3.1 to 6.0 */
+  transition: width 2s, height 2s, border-radius 2s;
+  :hover {
+    width: ",
+        [Function],
+        ";
+    height: ",
+        [Function],
+        ";
+    border-radius: ",
+        [Function],
+        ";;
+  }
+",
+      ],
+    },
+    "displayName": "styled.div",
+    "render": [Function],
+    "styledComponentId": "sc-bdVaJa",
+    "target": "div",
+    "toString": [Function],
+    "warnTooManyClasses": [Function],
+    "withComponent": [Function],
+  },
+}
+`;
